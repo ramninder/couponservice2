@@ -27,6 +27,7 @@ public class CouponRestController {
 	public Coupon getCoupon(@PathVariable("code") String code) {
 		
 		return repo.findByCode(code);
+
 	}
 
 }
