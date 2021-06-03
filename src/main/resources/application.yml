@@ -3,5 +3,5 @@ server:
 spring:
   datasource:
     password: ${password}
-    url: jdbc:mysql://${DB_HOST}/${DB_NAME}
+    url: jdbc:mysql://${DB_HOST}/${DB_NAME}?useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC
     username: ${username}
